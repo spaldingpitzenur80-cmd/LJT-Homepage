@@ -103,12 +103,14 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - AGENTS.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - CHANGELOG
   - Capfile
   - config
+  - docker-compose.yaml
   - Dockerfile
   - Gemfile
   - Gruntfile.js
@@ -116,10 +118,12 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - scripts
   - tmp
   - vendor
 keep_files:
